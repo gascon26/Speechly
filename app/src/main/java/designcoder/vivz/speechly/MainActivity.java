@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
-                Log.d("VIVZ", "run was called");
+                Log.d("DREW", "run was called");
                 timeRemaining = timeRemaining - 1000;
                 if(timeRemaining > 0){
                     handler.postDelayed(this,1000);
